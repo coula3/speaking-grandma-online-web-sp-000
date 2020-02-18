@@ -2,7 +2,9 @@
 
 def speak_to_grandma(string)
   if string == 'Hi Nana, how are you?'
-    return 
+    return 'HUH?! SPEAK UP, SONNY!'
+    
+  end
   
 end
 
