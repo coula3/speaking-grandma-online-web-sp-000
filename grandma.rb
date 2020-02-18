@@ -1,11 +1,12 @@
 # Write a speak_to_grandma method.
 
 def speak_to_grandma(string)
-  if string == 'Hi Nana, how are you?'
+  if string == 'Hi Nana, how are you?' || string == "Hi!"
     return 'HUH?! SPEAK UP, SONNY!'
   elsif string == 'I LOVE YOU GRANDMA!'
     return 'I LOVE YOU TOO PUMPKIN!'
-  # elsif string
+  elsif string == 'WHAT DID YOU EAT TODAY?'
+  return 
     
   end
   
@@ -24,13 +25,6 @@ end
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-# it 'responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA!' do
-#     expect(speak_to_grandma('I LOVE YOU GRANDMA!')).to eq 'I LOVE YOU TOO PUMPKIN!'
-#   end
-
-#   it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do
-#     expect(speak_to_grandma('Hi Nana, how are you?')).to eq 'HUH?! SPEAK UP, SONNY!'
-#   end
 
 #   it 'responds with HUH?! SPEAK UP, SONNY! for a second time' do
 #     expect(speak_to_grandma('Hi!')).to eq 'HUH?! SPEAK UP, SONNY!'
